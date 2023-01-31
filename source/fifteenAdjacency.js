@@ -1,4 +1,8 @@
-// Get fifteen puzzle adjacency matrix
+/**
+* Get fifteen puzzle adjacency matrix
+* 
+* @returns {Array<number>} adjacency matrix
+*/
 module.exports.getFifteenAdjacencyMatrix = function () {
     return adjacencyMatrix;
 }
@@ -25,7 +29,9 @@ module.exports.getFifteenAdjacencyMatrix = function () {
 // | 14 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  1 |  0 |  0 |  1 |  0 |  1 |  0 |
 // | 15 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  1 |  0 |  0 |  1 |  0 |  1 |
 // | 16 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  0 |  1 |  0 |  0 |  1 |  0 |
-
+/**
+* Adjacency matrix for fifteen puzzle
+*/
 const adjacencyMatrix = [
     [
         false, true, false, false, true, false, false, false, false, false, false, false, false, false, false, false,
