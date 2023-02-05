@@ -34,51 +34,51 @@ module.exports.getFifteenAdjacencyMatrix = function () {
 */
 const adjacencyMatrix = [
     [
-        false, true, false, false, true, false, false, false, false, false, false, false, false, false, false, false,
+        0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
     [
-        true, false, true, false, false, true, false, false, false, false, false, false, false, false, false, false,
+        1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
     [
-        false, true, false, true, false, false, true, false, false, false, false, false, false, false, false, false,
+        0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
     [
-        false, false, true, false, false, false, false, true, false, false, false, false, false, false, false, false,
+        0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0,
     ],
     [
-        true, false, false, false, false, true, false, false, true, false, false, false, false, false, false, false,
+        1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0,
     ],
     [
-        false, true, false, false, true, false, true, false, false, true, false, false, false, false, false, false,
+        0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0,
     ],
     [
-        false, false, true, false, false, true, false, true, false, false, true, false, false, false, false, false,
+        0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0,
     ],
     [
-        false, false, false, true, false, false, true, false, false, false, false, true, false, false, false, false,
+        0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0,
     ],
     [
-        false, false, false, false, true, false, false, false, false, true, false, false, true, false, false, false,
+        0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0,
     ],
     [
-        false, false, false, false, false, true, false, false, true, false, true, false, false, true, false, false,
+        0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0,
     ],
     [
-        false, false, false, false, false, false, true, false, false, true, false, true, false, false, true, false,
+        0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0,
     ],
     [
-        false, false, false, false, false, false, false, true, false, false, true, false, false, false, false, true,
+        0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1,
     ],
     [
-        false, false, false, false, false, false, false, false, true, false, false, false, false, true, false, false,
+        0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0,
     ],
     [
-        false, false, false, false, false, false, false, false, false, true, false, false, true, false, true, false,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0,
     ],
     [
-        false, false, false, false, false, false, false, false, false, false, true, false, false, true, false, true,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1,
     ],
     [
-        false, false, false, false, false, false, false, false, false, false, false, true, false, false, true, false,
+        0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0,
     ],
 ];

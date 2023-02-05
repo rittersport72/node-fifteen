@@ -14,8 +14,12 @@ module.exports.Node = class Node {
         this.value = value;
         this.parent = parent;
         this.children = [];
- 
-        console.log(`Node ${this.key} ${this.value}`);
+        
+        if (parent === null) {
+            console.log(`Node key ${this.key} value ${this.value}`);
+        } else {
+            console.log(`Node key ${this.key} value ${this.value} parent ${this.parent.value}`);
+        }
     }
 }
 
@@ -63,5 +67,20 @@ module.exports.Tree = class Tree {
             }
         }
         return false;
+    }
+    
+    /**
+    * Find key in tree
+    * 
+    * @param {number} key 
+    * @returns Return node, else undefined
+    */
+    find(key) {
+        for (let node of this.walk()) {
+            if (node.key === key) {
+                return node;
+            }
+        }
+        return undefined;
     }
 }
